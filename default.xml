@@ -11,32 +11,31 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- mnemonyc repos -->
-  <project path="build" name="mnemonyc/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-N-legacy" >
+<!-- Discovery ROM repos -->
+  <project path="build" name="LegacyTeamAOSP/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-N-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="mnemonyc/platform_bionic" groups="pdk" remote="github" revision="aosp-N-legacy" />
-  <project path="device/qcom/common" name="mnemonyc/android_device_qcom_common" remote="github" revision="aosp-N-legacy" />
-  <project path="device/qcom/sepolicy" name="mnemonyc/android_device_qcom_sepolicy" remote="github" revision="aosp-N-legacy" />
-  <project path="device/zuk/z2plus" name="mnemonyc/android_device_zuk_z2plus" remote="github" revision="aosp-N-legacy" />
-  <project path="kernel/zuk/msm8996" name="mnemonyc/android_kernel_zuk_msm8996" remote="github" revision="aosp-N-legacy" />
-  <project path="external/ant-wireless/antradio-library" name="mnemonyc/platform_external_ant-wireless_antradio-library" remote="github" revision="aosp-N-legacy" />
-  <project path="external/libchrome" name="mnemonyc/platform_external_libchrome" remote="github" revision="aosp-N-legacy" />
-  <project path="external/libnetfilter_conntrack" name="mnemonyc/android_external_libnetfilter_conntrack" remote="github" revision="aosp-N-legacy" />
-  <project path="external/libnfnetlink" name="mnemonyc/android_external_libnfnetlink" remote="github" revision="aosp-N-legacy" />
-  <project path="external/libnfc-nci" name="mnemonyc/platform_external_libnfc-nci" groups="pdk" remote="github" revision="aosp-N-legacy" />
-  <project path="frameworks/native" name="mnemonyc/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-N-legacy" />
-  <project path="hardware/qcom/audio/msm8996" name="mnemonyc/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="aosp-N-legacy" />
-  <project path="hardware/qcom/camera" name="mnemonyc/android_hardware_qcom_camera" groups="qcom" remote="github" revision="aosp-N-legacy" />
-  <project path="hardware/qcom/display/msm8996" name="mnemonyc/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-N-legacy" />
-  <project path="hardware/qcom/media/msm8996" name="mnemonyc/android_hardware_qcom_media" groups="qcom" remote="github" revision="aosp-N-legacy" />
-  <project path="hardware/qcom/wlan" name="mnemonyc/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="aosp-N-legacy" />
-  <project path="system/core" name="mnemonyc/platform_system_core" groups="pdk" remote="github" revision="aosp-N-legacy" />
-  <project path="system/vold" name="mnemonyc/platform_system_vold" groups="pdk" remote="github" revision="aosp-N-legacy" />
-  <project path="vendor/aosp" name="mnemonyc/platform_vendor_aosp" remote="github" revision="aosp-N-legacy" />
-  <project path="vendor/qcom/opensource/dataservices" name="mnemonyc/android_vendor_qcom_opensource_dataservices" remote="github" revision="aosp-N-legacy" />
-  <project path="vendor/qcom" name="mnemonyc/proprietary_vendor_qcom" remote="github" revision="aosp-N-legacy" />
-  <project path="vendor/zuk" name="mnemonyc/proprietary_vendor_zuk" remote="github" revision="aosp-N-legacy" />
+  <project path="bionic" name="LegacyTeamAOSP/platform_bionic" groups="pdk" remote="github" revision="aosp-N-legacy" />
+  <project path="device/qcom/common" name="LegacyTeamAOSP/android_device_qcom_common" remote="github" revision="aosp-N-legacy" />
+  <project path="device/qcom/sepolicy" name="LegacyTeamAOSP/android_device_qcom_sepolicy" remote="github" revision="aosp-N-legacy" />
+  <project path="device/zuk/z2plus" name="LegacyTeamAOSP/android_device_zuk_z2plus" remote="github" revision="aosp-N-legacy" />
+  <project path="kernel/zuk/msm8996" name="LegacyTeamAOSP/android_kernel_zuk_msm8996" remote="github" revision="aosp-N-legacy" />
+  <project path="external/ant-wireless/antradio-library" name="LegacyTeamAOSP/platform_external_ant-wireless_antradio-library" remote="github" revision="aosp-N-legacy" />
+  <project path="external/libnetfilter_conntrack" name="LegacyTeamAOSP/android_external_libnetfilter_conntrack" remote="github" revision="aosp-N-legacy" />
+  <project path="external/libnfnetlink" name="LegacyTeamAOSP/android_external_libnfnetlink" remote="github" revision="aosp-N-legacy" />
+  <project path="external/libnfc-nci" name="LegacyTeamAOSP/platform_external_libnfc-nci" groups="pdk" remote="github" revision="aosp-N-legacy" />
+  <project path="frameworks/native" name="LegacyTeamAOSP/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-N-legacy" />
+  <project path="hardware/qcom/audio/msm8996" name="LegacyTeamAOSP/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="aosp-N-legacy" />
+  <project path="hardware/qcom/camera" name="LegacyTeamAOSP/android_hardware_qcom_camera" groups="qcom" remote="github" revision="aosp-N-legacy" />
+  <project path="hardware/qcom/display/msm8996" name="LegacyTeamAOSP/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-N-legacy" />
+  <project path="hardware/qcom/media/msm8996" name="LegacyTeamAOSP/android_hardware_qcom_media" groups="qcom" remote="github" revision="aosp-N-legacy" />
+  <project path="hardware/qcom/wlan" name="LegacyTeamAOSP/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="aosp-N-legacy" />
+  <project path="system/core" name="LegacyTeamAOSP/platform_system_core" groups="pdk" remote="github" revision="aosp-N-legacy" />
+  <project path="system/vold" name="LegacyTeamAOSP/platform_system_vold" groups="pdk" remote="github" revision="aosp-N-legacy" />
+  <project path="vendor/aosp" name="LegacyTeamAOSP/platform_vendor_aosp" remote="github" revision="aosp-N-legacy" />
+  <project path="vendor/qcom/opensource/dataservices" name="LegacyTeamAOSP/android_vendor_qcom_opensource_dataservices" remote="github" revision="aosp-N-legacy" />
+  <project path="vendor/qcom" name="LegacyTeamAOSP/proprietary_vendor_qcom" remote="github" revision="aosp-N-legacy" />
+  <project path="vendor/zuk" name="LegacyTeamAOSP/proprietary_vendor_zuk" remote="github" revision="aosp-N-legacy" />
 
 <!-- AOSP repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -207,6 +206,7 @@
   <project path="external/libbrillo" name="platform/external/libbrillo" />
   <project path="external/libcap" name="platform/external/libcap" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libchrome" name="platform/external/libchrome" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
