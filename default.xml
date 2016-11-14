@@ -8,7 +8,7 @@
            fetch=".." />
 
   <remote  name="discovery"
-           fetch="https://github.com/LegacyTeamAOSP"
+           fetch="https://github.com/DiscoveryTeam"
 	         revision="aosp-N-legacy" />
 
   <default revision="refs/tags/android-7.1.0_r7"
