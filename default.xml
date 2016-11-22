@@ -163,7 +163,6 @@
   <project path="external/json-c" name="CyanogenMod/android_external_json-c" revision="cm-14.1" remote="github" />
   <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" revision="cm-14.1" remote="github" />
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" revision="cm-14.1" remote="github" />
-  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-14.1" remote="github" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" revision="cm-14.1" remote="github" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
