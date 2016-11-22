@@ -168,7 +168,7 @@
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
-  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="cm-14.1" remote="github" />
+  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
 
 <!-- AOSP repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
