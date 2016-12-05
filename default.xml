@@ -30,8 +30,10 @@
 	
   <!-- Discovery ROM external -->
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="discovery" />
+  <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="discovery" />
   <project path="external/fuse" name="platform_external_fuse" remote="discovery" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
+  <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="discovery" />
 
   <!-- Discovery ROM frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="discovery" />
