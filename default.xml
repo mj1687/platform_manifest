@@ -45,6 +45,9 @@
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="discovery" />
 
+  <!-- Discovery ROM hardware -->
+  <project path="hardware/ril-caf" name="platform_hardware_ril-caf" groups="pdk" remote="discovery" />
+	
   <!-- Discovery ROM misc -->
   <project path="art" name="platform_art" groups="pdk" remote="discovery" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="discovery" />
@@ -140,7 +143,6 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.1" remote="github" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" remote="github" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="cm-14.1" remote="github" />
