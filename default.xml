@@ -29,10 +29,12 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="discovery" />
 	
   <!-- Discovery ROM external -->
+  <project path="external/apache-http" name="platform_external_apache-http" groups="pdk" remote="discovery" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="discovery" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="discovery" />
   <project path="external/fuse" name="platform_external_fuse" remote="discovery" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
+  <project path="external/okhttp" name="platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="discovery" />
 
   <!-- Discovery ROM frameworks -->
@@ -191,7 +193,6 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" />
   <project path="external/autotest" name="platform/external/autotest" />
@@ -361,7 +362,6 @@
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv3" name="platform/external/opencv3" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
