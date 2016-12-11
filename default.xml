@@ -28,6 +28,9 @@
   <!-- Discovery ROM bootable -->
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="discovery" />
 	
+  <!-- Discovery device tree -->
+  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" groups="pdk" remote="discovery" />
+	
   <!-- Discovery ROM external -->
   <project path="external/apache-http" name="platform_external_apache-http" groups="pdk" remote="discovery" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="discovery" />
