@@ -57,7 +57,8 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="discovery" />
-
+  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
+  
   <!-- Discovery ROM hardware -->
   <project path="hardware/ril-caf" name="platform_hardware_ril-caf" groups="pdk" remote="discovery" />
   
