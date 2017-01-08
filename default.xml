@@ -30,6 +30,7 @@
   
   <!-- Discovery device tree -->
   <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" groups="pdk" remote="discovery" />
+  <project path="device/zuk/z2_plus" name="platform_device_zuk_z2_plus" groups="pdk" remote="discovery" />
   <project path="kernel/zuk/msm8996" name="platform_kernel_zuk_msm8996" remote="discovery" />
 
   <!-- Discovery ROM external -->
