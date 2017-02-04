@@ -100,7 +100,7 @@
 
   <!-- Discovery ROM vendor -->
   <project path="vendor/discovery" name="proprietary_vendor_discovery" remote="discovery" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="DiscoveryTeam/proprietary_vendor_codeaurora_telephony" revision="aosp-N-legacy" remote="github" />
 
 <!-- The Muppets' vendor -->
   <include name="themuppets.xml"/>
