@@ -100,6 +100,7 @@
 
   <!-- Discovery ROM vendor -->
   <project path="vendor/discovery" name="proprietary_vendor_discovery" remote="discovery" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
 
   <!-- The Muppets' vendor -->
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
@@ -194,7 +195,6 @@
   <project path="external/powertop" name="LineageOS/android_external_powertop" revision="cm-14.1" remote="github" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
 
 <!-- AOSP repos -->
