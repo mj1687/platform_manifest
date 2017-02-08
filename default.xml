@@ -53,6 +53,8 @@
   <project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="discovery" />
   <project path="external/okhttp" name="platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="discovery" />
+
+  <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="discovery" />
   <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="discovery" />
 
   <!-- Discovery ROM frameworks -->
@@ -66,6 +68,9 @@
 
   <!-- Discovery ROM hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="discovery" />
+  <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio" groups="qcom" revision="aosp-N-legacy-caf" remote="discovery" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" groups="qcom" revision="aosp-N-legacy-caf" remote="discovery" />
+    <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" revision="aosp-N-legacy-caf" remote="discovery" />
   <project path="hardware/ril-caf" name="platform_hardware_ril-caf" groups="pdk" remote="discovery" />
 
   <!-- Discovery ROM packages -->
@@ -100,7 +105,7 @@
 
   <!-- Discovery ROM vendor -->
   <project path="vendor/discovery" name="proprietary_vendor_discovery" remote="discovery" />
-  <project path="vendor/codeaurora/telephony" name="DiscoveryTeam/proprietary_vendor_codeaurora_telephony" revision="aosp-N-legacy" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="proprietary_vendor_codeaurora_telephony" remote="discovery" />
 
 <!-- The Muppets' vendor -->
   <include name="themuppets.xml"/>
