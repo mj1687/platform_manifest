@@ -36,8 +36,7 @@
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="pdk" revision="discovery7.1" remote="discovery" />
   <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" groups="pdk" remote="discovery" />
   <project path="device/zuk/z2_plus" name="platform_device_zuk_z2_plus" groups="pdk" remote="discovery" />
-  <!--project path="kernel/zuk/msm8996" name="platform_kernel_zuk_msm8996" remote="discovery" / -->
-  <project path="kernel/zuk/msm8996" name="18712886438/android_kernel_zuk_msm8996" remote="github" revision="caf-latest"/>
+  <project path="kernel/zuk/msm8996" name="platform_kernel_zuk_msm8996" remote="discovery" />
 
   <!-- Discovery ROM external -->
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
