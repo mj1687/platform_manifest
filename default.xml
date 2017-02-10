@@ -43,6 +43,7 @@
   <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="discovery" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="discovery" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="discovery" />
+  <project path="external/DUtils" name="platform_external_DUtils" remote="discovery" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="discovery" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="discovery" />
   <project path="external/fuse" name="platform_external_fuse" remote="discovery" />
