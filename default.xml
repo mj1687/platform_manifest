@@ -70,10 +70,6 @@
 
   <!-- Discovery ROM hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="discovery" />
-  <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio" groups="qcom" revision="aosp-N-legacy-caf" remote="discovery" />
-  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" groups="qcom" revision="aosp-N-legacy-caf" remote="discovery" />
-    <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" revision="aosp-N-legacy-caf" remote="discovery" />
-  <project path="hardware/ril" name="platform_hardware_ril-caf" groups="pdk" remote="discovery" />
 
   <!-- Discovery ROM packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
