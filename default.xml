@@ -35,6 +35,8 @@
   <!-- Discovery device tree -->
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="pdk" revision="discovery7.1" remote="discovery" />
   <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" groups="pdk" remote="discovery" />
+  <project path="device/xiaomi/kenzo" name="device_xiaomi_kenzo" groups="pdk" remote="discovery" />
+  <project path="device/xiaomi/msm8956-common" name="device_xiaomi_msm8956-common" groups="pdk" remote="discovery" />
   <project path="device/zuk/z2_plus" name="platform_device_zuk_z2_plus" groups="pdk" remote="discovery" />
   <project path="kernel/zuk/msm8996" name="platform_kernel_zuk_msm8996" remote="discovery" />
 
@@ -56,7 +58,6 @@
   <project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="discovery" />
   <project path="external/okhttp" name="platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="discovery" />
-  <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="discovery" />
   <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="discovery" />
 
   <!-- Discovery ROM frameworks -->
