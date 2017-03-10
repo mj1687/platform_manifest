@@ -86,7 +86,7 @@
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="discovery" />
-  <project path="packages/apps/masquerade" name="platform_packages_apps_masquerade" groups="pdk-fs" remote="discovery" />
+  <project path="packages/apps/ThemeInterfacer" name="platform_packages_apps_ThemeInterfacer" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="discovery" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
