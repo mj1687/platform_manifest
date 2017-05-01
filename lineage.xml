@@ -62,6 +62,7 @@
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="github" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1" remote="github" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" remote="github" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" revision="cm-14.1" remote="github" />
