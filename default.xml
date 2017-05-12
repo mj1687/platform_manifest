@@ -21,7 +21,7 @@
     </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="discovery" />
 
-  <project path="manifest" name="platform_manifest" remote="discovery" />
+  <project path="manifest" name="DiscoveryTeam/platform_manifest" remote="github" revision="aosp-N-legacy" />
 
 <!-- Discovery ROM repos -->
     
