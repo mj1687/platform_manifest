@@ -36,12 +36,15 @@
   <project path="device/asus/Z00A" name="android_device_asus_Z00A" groups="pdk" remote="discovery" />
   <project path="device/asus/mofd-common" name="android_device_asus_mofd-common" groups="pdk" remote="discovery" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="pdk" revision="discovery7.1" remote="discovery" />
+  <project path="device/samsung/i9300" name="android_device_samsung_i9300" groups="pdk" remote="discovery" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="pdk" remote="discovery" />
   <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" groups="pdk" remote="discovery" />
   <project path="device/xiaomi/kenzo" name="device_xiaomi_kenzo" groups="pdk" remote="discovery" />
   <project path="device/xiaomi/msm8956-common" name="device_xiaomi_msm8956-common" groups="pdk" remote="discovery" />
   <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" groups="pdk" remote="discovery" />
   <project path="device/zuk/z2_plus" name="platform_device_zuk_z2_plus" groups="pdk" remote="discovery" />
   <project path="kernel/asus/moorefield" name="android_kernel_asus_moorefield" remote="discovery" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="discovery" />
   <project path="kernel/zuk/msm8996" name="platform_kernel_zuk_msm8996" remote="discovery" />
 
   <!-- Other device's repo -->
