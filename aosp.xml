@@ -313,6 +313,7 @@
 	<project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
 	<project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
 	<project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
+	<project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
 	<project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
 	<project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
 	<project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
