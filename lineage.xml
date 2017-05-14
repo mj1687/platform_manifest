@@ -73,7 +73,6 @@
   <project path="hardware/intel/common/utils" name="LineageOS/android_hardware_intel_common_utils" groups="intel" revision="cm-14.1" remote="github" />
   <project path="hardware/intel/img/psb_headers" name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel" revision="cm-14.1" remote="github" />
   <project path="hardware/intel/img/psb_video" name="LineageOS/android_hardware_intel_img_psb_video" groups="intel" revision="cm-14.1" remote="github" />
-  <project path="hardware/intel/sensors" name="LineageOS/android_hardware_intel_sensors" groups="intel" revision="cm-14.1" remote="github" />
   
   <!-- LineageOS's packages -->
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" revision="cm-14.1" remote="github" />
