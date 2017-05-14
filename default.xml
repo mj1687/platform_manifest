@@ -34,7 +34,6 @@
 
   <!-- Discovery device tree -->
   <project path="device/asus/Z00A" name="android_device_asus_Z00A" groups="pdk" remote="discovery" />
-  <project path="device/asus/mofd-common" name="android_device_asus_mofd-common" groups="pdk" remote="discovery" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="pdk" revision="discovery7.1" remote="discovery" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" groups="pdk" remote="discovery" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="pdk" remote="discovery" />
@@ -80,6 +79,8 @@
   <!-- Discovery ROM hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="discovery" />
   <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" groups="qcom" remote="discovery" />
+  <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" groups="intel" remote="discovery"/>
+
 
   <!-- Discovery ROM packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="discovery" />

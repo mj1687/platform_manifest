@@ -66,7 +66,15 @@
   <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" revision="cm-14.1" remote="github" />
-
+  <project path="hardware/intel/common/libmix" name="LineageOS/android_hardware_intel_common_libmix" groups="intel" revision="cm-14.1" remote="github" />
+  <project path="hardware/intel/common/libva" name="LineageOS/android_hardware_intel_common_libva" groups="intel" revision="cm-14.1" remote="github" />
+  <project path="hardware/intel/common/libwsbm" name="LineageOS/android_hardware_intel_common_libwsbm" groups="intel" revision="cm-14.1" remote="github" />
+  <project path="hardware/intel/common/omx-components" name="LineageOS/android_hardware_intel_common_omx-components" groups="intel" revision="cm-14.1" remote="github" />
+  <project path="hardware/intel/common/utils" name="LineageOS/android_hardware_intel_common_utils" groups="intel" revision="cm-14.1" remote="github" />
+  <project path="hardware/intel/img/psb_headers" name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel" revision="cm-14.1" remote="github" />
+  <project path="hardware/intel/img/psb_video" name="LineageOS/android_hardware_intel_img_psb_video" groups="intel" revision="cm-14.1" remote="github" />
+  <project path="hardware/intel/sensors" name="LineageOS/android_hardware_intel_sensors" groups="intel" revision="cm-14.1" remote="github" />
+  
   <!-- LineageOS's packages -->
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" revision="cm-14.1" remote="github" />
 
