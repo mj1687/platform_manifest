@@ -12,6 +12,7 @@
   <project path="external/openssh" name="LineageOS/android_external_openssh" revision="cm-14.1" remote="github" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" revision="cm-14.1" remote="github" />
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/stlport" name="LineageOS/android_external_stlport" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="cm-14.1" />
