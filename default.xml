@@ -11,7 +11,7 @@
            fetch="https://github.com/DiscoveryTeam"
            revision="7.1.2" />
 
-  <default revision="refs/tags/android-7.1.2_r17"
+  <default revision="refs/tags/android-7.1.2_r24"
            remote="aosp"
            sync-j="4" />
 
