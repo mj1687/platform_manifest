@@ -612,6 +612,8 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+  <project path="vendor/qcom-opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="discovery" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="discovery" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
