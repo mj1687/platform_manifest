@@ -142,6 +142,7 @@
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
+  <project path="external/exfat" name="platform_external_exfat" remote="discovery" groups="pdk" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
@@ -154,6 +155,7 @@
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" />
+  <project path="external/fuse" name="platform_external_fuse" remote="discovery" groups="pdk" />
   <project path="external/gemmlowp" name="platform/external/gemmlowp" groups="pdk" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk" />
@@ -224,7 +226,7 @@
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" />
   <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="discovery" groups="pdk" />
-  <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
+  <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="discovery" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -274,6 +276,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
+  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="discovery" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
@@ -407,10 +410,10 @@
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="discovery" revision="8.x-8996" groups="qcom,qcom_audio,pdk" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="discovery" groups="qcom,pdk" />
-  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="discovery" groups="qcom,qcom_gps,pdk" />
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="discovery" revision="8.x-8996" groups="qcom,qcom_camera,pdk" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="discovery" revision="8.x-8996" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="discovery" groups="qcom,qcom_gps,pdk" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="discovery" revision="8.x-8996" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="discovery" revision="8.x-8996" groups="qcom,pdk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
