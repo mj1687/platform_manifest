@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="discovery"
+           fetch="https://github.com/DiscoveryTeam"
+           revision="8.x" />
+
+  <project path="manifest" name="platform_manifest" remote="discovery" revision="8.x-8996" />
+
+  <!-- Discovery Build -->
+  <project path="build/make" name="platform_build" remote="discovery" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <project path="build/kati" name="platform_build_kati" remote="discovery" groups="pdk,tradefed" />
+  <project path="build/soong" name="platform_build_soong" remote="discovery" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Discovery misc -->
+  <project path="bionic" name="platform_bionic" remote="discovery" groups="pdk" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="discovery" groups="pdk" />
+
+  <!-- Discovery external -->
+  <project path="external/brctl" name="platform_external_brctl" remote="discovery" groups="pdk" />
+  <project path="external/exfat" name="platform_external_exfat" remote="discovery" groups="pdk" />
+  <project path="external/fuse" name="platform_external_fuse" remote="discovery" groups="pdk" />
+  <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="discovery" groups="pdk" />
+  <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="discovery" groups="pdk" />
+  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="discovery" groups="pdk" />
+  <project path="external/powertop" name="platform_external_powertop" remote="discovery" groups="pdk" />
+
+  <!-- Discovery frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="discovery" groups="pdk" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="discovery" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="discovery" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="discovery" groups="pdk" />
+
+  <!-- Discovery hardware -->
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="discovery" groups="pdk" />
+
+  <!-- Discovery packages -->
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="discovery" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="discovery" groups="pdk-fs" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="discovery" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="discovery" groups="pdk-cw-fs,pdk-fs" />
+
+  <!-- Discovery system -->
+  <project path="system/bt" name="platform_system_bt" remote="discovery" groups="pdk" />
+  <project path="system/core" name="platform_system_core" remote="discovery" groups="pdk" />
+  <project path="system/media" name="platform_system_media" remote="discovery" groups="pdk" />
+  <project path="system/qcom" name="platform_system_qcom" remote="discovery" groups="pdk" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="discovery" groups="pdk" />
+  <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="discovery" groups="pdk" />
+  <project path="system/vold" name="platform_system_vold" remote="discovery" groups="pdk" />
+
+  <!-- Discovery devices -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="pdk" remote="discovery" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="discovery" />
+
+  <!-- Hardware 8996 -->
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="discovery" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="discovery" groups="pdk" />
+  <project path="hardware/qcom/audio/defaul" name="platform_hardware_qcom_audio" remote="discovery" groups="qcom,qcom_audio,pdk" />
+  <project path="hardware/qcom/audio/msm8996" name="platform_hardware_qcom_audio" remote="discovery" revision="8.x-8996" groups="qcom,qcom_audio,pdk" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="discovery" groups="qcom,pdk" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="discovery" revision="8.x-caf" groups="qcom,pdk" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="discovery" groups="qcom,qcom_camera,pdk" />
+  <project path="hardware/qcom/display-caf/8996" name="platform_hardware_qcom_display" remote="discovery" revision="8.x-8996" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="discovery" groups="qcom,qcom_gps,pdk" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="discovery" groups="qcom,qcom_keymaster,pdk" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="discovery" groups="qcom,pdk" />
+  <project path="hardware/qcom/media-caf/8996" name="platform_hardware_qcom_media" remote="discovery" revision="8.x-8996" groups="qcom,pdk" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="discovery" revision="8.x-caf" groups="qcom_wlan,pdk" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril-caf" remote="discovery" groups="pdk" />
+
+  <!-- Discovery vendors -->
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" groups="pdk" remote="discovery" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" groups="pdk" remote="discovery" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="pdk" remote="discovery" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="discovery" />
+
+</manifest>
