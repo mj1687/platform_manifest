@@ -9,7 +9,7 @@
            fetch="https://github.com/DiscoveryTeam"
            revision="8.x" />
 
-  <default revision="refs/tags/android-8.0.0_r4"
+  <default revision="refs/tags/android-8.0.0_r11"
            remote="aosp"
            sync-j="4" />
 
