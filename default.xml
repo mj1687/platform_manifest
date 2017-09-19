@@ -2,12 +2,15 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
   <remote  name="discovery"
            fetch="https://github.com/DiscoveryTeam"
            revision="8.x" />
+  
+  <remote  name="github"
+            fetch="https://github.com/" />
 
   <default revision="refs/tags/android-8.0.0_r11"
            remote="aosp"
