@@ -23,13 +23,13 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="gzosp" />
+  <project path="build/kati" name="DiscoveryTeam/platform_build_kati" groups="pdk,tradefed" remote="github" revision="8.x" />
   <project path="build/soong" name="DiscoveryTeam/platform_build_soong" groups="pdk,tradefed" remote="github" revision="8.x-test" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
+  <project path="bionic" name="DiscoveryTeam/platform_bionic" groups="pdk" remote="github" revision="8.x" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="gzosp" />
