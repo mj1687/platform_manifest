@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-8.0.0_r11"
+  <default revision="refs/tags/android-8.0.0_r17"
            remote="aosp"
            sync-f="true"
            sync-c="true"
@@ -285,6 +285,7 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
   <project path="external/x264" name="platform/external/x264" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
@@ -313,6 +314,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
