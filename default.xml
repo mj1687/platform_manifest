@@ -36,7 +36,7 @@
   </project>
 
   <!-- Discovery misc -->
-  <project path="bionic" name="platform_bionic" remote="discovery" groups="pdk" />
+  <project path="bionic" name="platform_bionic" remote="discovery" revision="8.x-8952" groups="pdk" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="discovery" groups="pdk" />
 
   <!-- Discovery external -->
