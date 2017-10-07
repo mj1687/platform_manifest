@@ -67,6 +67,9 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="discovery" groups="pdk" />
   <project path="system/vold" name="platform_system_vold" remote="discovery" groups="pdk" />
 
+  <!-- Discovery vendor -->
+  <project path="vendor/discovery" name="DiscoveryTeam/proprietary_vendor_discovery" remote="github" revision="8.x-test" />
+
   <!-- Discovery devices -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="pdk" remote="discovery" />
 
