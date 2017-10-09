@@ -30,7 +30,7 @@
   </project>
 
   <project path="bionic" name="DiscoveryTeam/platform_bionic" groups="pdk" remote="github" revision="8.x" />
-  <project path="bootable/recovery" name="DiscoveryTeam/platform_bootable_recovery" groups="pdk" remote="github" revision="8.x-test" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
   <project path="external/ebtables" name="DiscoveryTeam/platform_external_ebtables" groups="pdk" remote="github" revision="8.x-test" />
   <project path="external/exfat" name="DiscoveryTeam/platform_external_exfat" remote="github" revision="8.x" />
