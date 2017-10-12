@@ -65,7 +65,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
+  <project path="system/sepolicy" name="DiscoveryTeam/platform_system_sepolicy" groups="pdk" remote="github" revision="8.x-test" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
   <project path="vendor/discovery" name="DiscoveryTeam/proprietary_vendor_discovery" remote="github" revision="8.x-test" />
 
