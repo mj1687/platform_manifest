@@ -11,6 +11,22 @@
            sync-c="true"
            sync-j="8" />
 
+  <remote  name="discovery"
+           fetch="https://github.com/DiscoveryTeam"
+           sync-c="true"
+           sync-f="true"
+           sync-j="8"
+           revision="8.x" />
+
+  <remote  name="gzosp"
+           fetch="https://github.com/GZOSP"
+           sync-c="true"
+           sync-f="true"
+           sync-j="8"
+           revision="8.0" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
 
   <!-- AOSP -->
   <project path="art" name="platform/art" groups="pdk" />
