@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- Discovery -->
-  <project path="manifest" name="platform_manifest" remote="discovery" revision="8.x-8996-test" />
-  <project path="build/make" name="platform_build" remote="discovery" revision="8.x" >
+  <project path="manifest" name="platform_manifest" remote="discovery" revision="8.x-8998-test" />
+  <project path="build/make" name="platform_build" remote="discovery" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -14,7 +14,7 @@
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="discovery" />
-  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="discovery" revision="8.x" >
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="discovery" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -22,7 +22,7 @@
   <project path="bionic" name="platform_bionic" groups="pdk" remote="discovery" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
-  <project path="external/ebtables" name="platform_external_ebtables" groups="pdk" remote="discovery" revision="8.x" />
+  <project path="external/ebtables" name="platform_external_ebtables" groups="pdk" remote="discovery" />
   <project path="external/exfat" name="platform_external_exfat" remote="discovery" />
   <project path="external/fuse" name="platform_external_fuse" remote="discovery" />
   <project path="external/htop" name="platform_external_htop" remote="discovery" />
@@ -34,11 +34,11 @@
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="discovery" revision="8.x" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="discovery" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="discovery" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="discovery" revision="8.x" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="discovery" revision="8.x" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="discovery" revision="8.x" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="discovery" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="discovery" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="discovery" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="gzosp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="gzosp" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="discovery" />
@@ -57,8 +57,8 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="discovery" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="discovery" />
   <project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="discovery" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="discovery" revision="8.x" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="discovery" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="discovery" />
-  <project path="vendor/discovery" name="proprietary_vendor_discovery" remote="discovery" revision="8.x" />
+  <project path="vendor/discovery" name="proprietary_vendor_discovery" remote="discovery" />
 
 </manifest>
