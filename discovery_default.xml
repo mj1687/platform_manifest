@@ -29,11 +29,11 @@
   <project path="external/json-c" name="platform_external_json-c" remote="discovery" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="discovery" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
-  <project path="external/mksh" name="external_mksh" groups="pdk" remote="gzosp" />
+  <project path="external/mksh" name="external_mksh" groups="pdk" remote="discovery" />
   <project path="external/nano" name="external_nano" remote="gzosp" />
-  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
-  <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
-  <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="discovery" />
+  <project path="external/selinux" name="external_selinux" groups="pdk" remote="discovery" />
+  <project path="external/toybox" name="external_toybox" groups="pdk" remote="discovery" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="discovery" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="discovery" revision="8.1" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="discovery" />
