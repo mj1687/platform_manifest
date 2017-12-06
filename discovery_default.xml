@@ -53,7 +53,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gzosp" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="discovery" revision="8.1" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="discovery" revision="8.1" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="discovery" revision="8.1" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="discovery" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="discovery" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="discovery" />
