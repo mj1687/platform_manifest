@@ -20,7 +20,7 @@
   </project>
 
   <project path="bionic" name="platform_bionic" groups="pdk" remote="discovery" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="discovery" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
   <project path="external/ebtables" name="platform_external_ebtables" groups="pdk" remote="discovery" />
   <project path="external/exfat" name="platform_external_exfat" remote="discovery" />
