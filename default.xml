@@ -16,7 +16,7 @@
            sync-c="true"
            sync-f="true"
            sync-j="8"
-           revision="8.x" />
+           revision="8.1" />
 
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP"
