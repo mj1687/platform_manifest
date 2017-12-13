@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Discovery -->
-  <project path="manifest" name="platform_manifest" remote="discovery" revision="8.1-8998-rebase" />
+  <project path="manifest" name="platform_manifest" remote="discovery" revision="8.1" />
   <project path="build/make" name="platform_build" remote="discovery" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
