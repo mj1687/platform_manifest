@@ -62,5 +62,6 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="discovery" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="discovery" />
   <project path="vendor/discovery" name="proprietary_vendor_discovery" remote="discovery" />
+  <project path="vendor/extras" name="platform_vendor_extras" remote="discovery" />
 
 </manifest>
