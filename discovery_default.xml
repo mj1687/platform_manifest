@@ -26,7 +26,6 @@
   <project path="external/exfat" name="platform_external_exfat" remote="discovery" />
   <project path="external/fuse" name="platform_external_fuse" remote="discovery" />
   <project path="external/htop" name="platform_external_htop" remote="discovery" />
-  <project path="external/json-c" name="platform_external_json-c" remote="discovery" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="discovery" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
   <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="discovery" />
