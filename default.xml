@@ -23,7 +23,7 @@
            sync-c="true"
            sync-f="true"
            sync-j="8"
-           revision="8.0" />
+           revision="8.1" />
 
   <remote  name="github"
            fetch="https://github.com" />
