@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote name="elix"
+        fetch="https://github.com/ElixiumOS"
+        revision="elix-8.1" />     
+
   <!-- Discovery -->
   <project path="manifest" name="platform_manifest" remote="discovery" revision="8.1" />
   <project path="build/make" name="platform_build" remote="discovery" >
@@ -65,5 +69,14 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="discovery" />
   <project path="vendor/discovery" name="proprietary_vendor_discovery" remote="discovery" />
   <project path="vendor/extras" name="platform_vendor_extras" remote="discovery" />
+
+   <project path="device/oneplus/dumpling" name="device_oneplus_dumpling" remote="discovery" />
+   <project path="device/oneplus/cheeseburger" name="LiquidRemix/android_device_oneplus_cheeseburger" remote="github" revision="oc-mr1" />
+   <project path="device/oneplus/msm8998-common" name="device_oneplus_msm8998-common" remote="discovery" />
+   <project path="device/oppo/common" name="DiscoveryTeam/device_oppo_common" remote="github" revision="8.1" />
+   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="lineage-15.1" />
+   <project path="kernel/oneplus/msm8998" name="LiquidRemix-Devices/android_kernel_oneplus_msm8998" remote="github" revision="oc-mr1" />
+   <project path="device/qcom/sepolicy" name="GZOSP/device_qcom_sepolicy" remote="github" revision="8.1" />
+   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="elix" />
 
 </manifest>
